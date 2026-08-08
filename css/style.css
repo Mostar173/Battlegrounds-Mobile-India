@@ -147,6 +147,23 @@ h2 {
     letter-spacing: 0;
     margin: 0;
 }
+.telegram-btn {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 10px 22px;
+    background-color: #fce40c;
+    color: #1B1A17;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: .2s ease-in;
+}
+.telegram-btn:hover {
+    background-color: white;
+    color: #1B1A17;
+    transform: translateY(-2px);
+}
 
 /* Map */
 
