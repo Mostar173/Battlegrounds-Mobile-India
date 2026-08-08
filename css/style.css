@@ -113,6 +113,40 @@ h2 {
     border: 3px solid #fce40c;
     box-shadow: 0 18px 45px rgba(0, 0, 0, .45);
 }
+.loader-copy {
+    max-width: 920px;
+    margin: 28px auto 0;
+    padding: 24px 28px;
+    border: 1px solid rgba(252, 228, 12, .55);
+    background-color: rgba(0, 0, 0, .28);
+    text-align: left;
+}
+.loader-copy h3 {
+    color: #fce40c;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.loader-copy h3 span {
+    color: white;
+}
+.loader-update {
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.loader-features {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 24px;
+}
+.loader-features p {
+    color: #d0d0d0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    margin: 0;
+}
 
 /* Map */
 
@@ -248,9 +282,19 @@ h2 {
         letter-spacing: 2px;
         padding: 0;
     }
-    .intro-image {
+        .intro-image {
         max-width: 80%;
     }
+    .loader-copy {
+        padding: 20px;
+    }
+    .loader-copy h3 {
+        font-size: 1.5rem;
+    }
+    .loader-features {
+        grid-template-columns: 1fr;
+    }
+
     /* Map size */
     .map-images {
         max-width: 75%;
