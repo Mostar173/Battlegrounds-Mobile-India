@@ -103,6 +103,62 @@ h2 {
     letter-spacing: 0;
     margin: 0 auto;
 }
+.mod-apk-details {
+    max-width: 920px;
+    margin: 0 auto 30px;
+    padding: 28px 30px;
+    background: rgba(0, 0, 0, .3);
+    border: 1px solid rgba(252, 228, 12, .55);
+    text-align: left;
+}
+.mod-apk-category {
+    color: #fce40c;
+    font-size: .95rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+}
+.mod-apk-details h2 {
+    color: white;
+    font-size: clamp(2rem, 4vw, 3.6rem);
+    line-height: 1.08;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+.mod-apk-meta {
+    color: #b7b7b7;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 26px;
+}
+.mod-apk-meta span {
+    color: #fce40c;
+    padding: 0 8px;
+}
+.mod-apk-details h3 {
+    color: #fce40c;
+    font-size: 1.55rem;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+.mod-apk-table {
+    border-top: 1px solid rgba(255, 255, 255, .16);
+}
+.mod-apk-row {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 20px;
+    padding: 11px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .16);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+}
+.mod-apk-row strong {
+    color: #fce40c;
+}
+.mod-apk-row span {
+    color: #f2f2f2;
+}
 .featured-gameplay-image {
     display: block;
     width: 100%;
@@ -304,6 +360,16 @@ h2 {
     }
         .intro-image {
         max-width: 80%;
+    }
+    .mod-apk-details {
+        padding: 22px 18px;
+    }
+    .mod-apk-details h3 {
+        font-size: 1.35rem;
+    }
+    .mod-apk-row {
+        grid-template-columns: 1fr;
+        gap: 4px;
     }
     .loader-copy {
         padding: 20px;
