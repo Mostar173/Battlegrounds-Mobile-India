@@ -75,6 +75,45 @@ h2 {
     font-size: 1.5rem;
 }
 
+/* Featured Gameplay */
+
+#featured-gameplay {
+    padding: 5% 6%;
+    background: linear-gradient(135deg, #24221c 0%, #11100e 100%);
+    text-align: center;
+}
+.featured-copy {
+    max-width: 760px;
+    margin: 0 auto 28px;
+}
+.featured-kicker {
+    color: #fce40c;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.featured-copy h2 {
+    color: white;
+    margin-bottom: 12px;
+}
+.featured-description {
+    color: #b7b7b7;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
+    margin: 0 auto;
+}
+.featured-gameplay-image {
+    display: block;
+    width: 100%;
+    max-width: 1280px;
+    max-height: 576px;
+    object-fit: cover;
+    margin: 0 auto;
+    border: 3px solid #fce40c;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, .45);
+}
+
 /* Map */
 
 #map {
